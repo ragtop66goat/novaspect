@@ -1,0 +1,44 @@
+<!-- header content -->
+<div class="header">
+  <img src="icon/NovaspectLogo2018.jpg">
+  <div id="date"><iframe
+      src="http://free.timeanddate.com/clock/i651p2pj/n64/fn17/fs18/fcfff/tct/pct/ahr/avt/ftb/tt0/tw1/td2/th2/ts1/ta1/tb4"
+      frameborder="0" width="100%" height="100%" allowTransparency="true" allow="autoplay"></iframe></div>
+</div>
+
+<!-- orange line -->
+<div id="pinstripe"></div>
+<div class="main">
+
+  <!-- Sidebar area -->
+  <div class="announcements-container">
+    <div class="announcements">
+      <h1>Novaspect Announcements!</h1>
+      <h3>Quote of the Day</h3>
+      <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aliquid!" - Smart Guy
+      </p>
+    </div>
+    <div class="weather">
+      <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/chaska-3784"><img
+          src="https://w.bookcdn.com/weather/picture/3_3784_0_1_137AE9_380_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=396"
+          alt="booked.net" /></a><!-- weather widget end -->
+    </div>
+  </div>
+
+  <!-- slide area -->
+  <div class="carousel-container">
+    <div class="slide-area" id="imgs">
+      {{#each slides}}
+      {{!-- this src is the filepath to the images displayed --}}
+      <img id="slides" src="/images/{{this}}">
+      {{/each}}
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <img src="icon/NovaspectLogo.png">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda ex similique deleniti dignissimos totam
+    optio. Odit quos amet pariatur atque ullam. Ducimus aliquid ipsa nemo</p>
+</div>
