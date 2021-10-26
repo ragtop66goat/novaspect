@@ -18,7 +18,6 @@ body {
 }
 
 /* header styling */
-/* make blue as this as possible */
 .header {
   background-color: var(--blue-color);
   display: flex;
